@@ -4,10 +4,10 @@
 			"path": "..\\RESIDENTeVIL"
 		},
 		{
-			"path": "..\\HanssonsHår"
+			"path": "..\\Hanssons"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "HanssonsHår"
+		"liveServer.settings.multiRootWorkspaceName": "Hanssons"
 	}
 }
