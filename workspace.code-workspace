@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\RESIDENTeVIL"
+		},
+		{
+			"path": "..\\HanssonsHår"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "HanssonsHår"
+	}
+}
