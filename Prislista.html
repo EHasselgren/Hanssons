@@ -1,49 +1,87 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
 
-    <link rel="stylesheet" href="HannsonsStyle.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="HannsonsStyle.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
 
     <title>Hanssons Hårsalong</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="http://127.0.0.1:5500/StartSida.html">Hanssons hårsalong</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent" style="padding-top: 17px;">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" href="http://127.0.0.1:5500/Tj%C3%A4nster.html">Tjänster</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active"  aria-current="page"  href="http://127.0.0.1:5500/Prislista.html">Prislista</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="http://127.0.0.1:5500/Kontakt.html">Kontakt</a>
-                  </li>
-        
-                  <form action="http://127.0.0.1:5500/Boka.html?" class="d-flex">
-                    <button class="btn btn-outline-success" type="submit" href="http://127.0.0.1:5500/Boka.html">Boka Tid</button>
-                  </form>              
-                </div>
-             
-            </div>
-          </nav>   
-         </header>
-
-         <main>
-          <div class="container-fluid" style="margin-left: 10px; margin-top: 15px; margin-bottom: 15px;">
-            <h1 class="display-4">Våra priser</h1>
-        </div>
-
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
+          <a class="navbar-brand" href="http://127.0.0.1:5500/index.html"
+            >Hanssons hårsalong</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="http://127.0.0.1:5500/Tj%C3%A4nster.html"
+                  >Tjänster</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="http://127.0.0.1:5500/Prislista.html"
+                  >Prislista</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://127.0.0.1:5500/Kontakt.html"
+                  >Kontakt</a
+                >
+              </li>
+            </ul>
+            <form action="http://127.0.0.1:5500/Boka.html?" class="d-flex">
+              <button
+                class="btn btn-outline-success"
+                type="submit"
+                href="http://127.0.0.1:5500/Boka.html"
+              >
+                Boka Tid
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div
+        class="container-fluid"
+        style="margin-left: 10px; margin-top: 15px; margin-bottom: 15px"
+      >
+        <h1 class="display-4">Våra priser</h1>
+      </div>
+
+      <div class="container-fluid">
         <table class="table">
           <thead>
             <tr>
@@ -76,7 +114,6 @@
           </tbody>
         </table>
       </div>
-         </main>
-    
-</body>
+    </main>
+  </body>
 </html>

@@ -1,95 +1,172 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
 
-    <link rel="stylesheet" href="HannsonsStyle.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="HannsonsStyle.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
 
     <title>Hanssons Hårsalong</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="http://127.0.0.1:5500/StartSida.html">Hanssons hårsalong</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent" style="padding-top: 17px;">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/Tj%C3%A4nster.html">Tjänster</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="http://127.0.0.1:5500/Prislista.html">Prislista</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="http://127.0.0.1:5500/Kontakt.html">Kontakt</a>
-                  </li>
-        
-                  <div> 
-                  <form action="http://127.0.0.1:5500/Boka.html?" class="d-flex">
-                    <button class="btn btn-outline-success" type="submit" href="http://127.0.0.1:5500/Boka.html">Boka Tid</button>
-                  </form>
-                </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="http://127.0.0.1:5500/index.html"
+            >Hanssons hårsalong</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="http://127.0.0.1:5500/Tj%C3%A4nster.html"
+                  >Tjänster</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://127.0.0.1:5500/Prislista.html"
+                  >Prislista</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://127.0.0.1:5500/Kontakt.html"
+                  >Kontakt</a
+                >
+              </li>
+            </ul>
+            <div>
+              <form action="http://127.0.0.1:5500/Boka.html?" class="d-flex">
+                <button
+                  class="btn btn-outline-success"
+                  type="submit"
+                  href="http://127.0.0.1:5500/Boka.html"
+                >
+                  Boka Tid
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div
+        class="container"
+        style="margin-left: 10px; margin-top: 15px; margin-bottom: 20px"
+      >
+        <h1 class="display-4">Våra behandlingar</h1>
+      </div>
+
+      <div class="container" style="margin-left: 10px; margin-bottom: 20px">
+        <p>
+          På <i>Hanssons hårsalong</i> så tillhandahas dom bästa behandlingarna
+          till våra kunder. Våra hårexperter erbjuder den mest profesionella
+          servicen.
+        </p>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="card" style="width: 18rem">
+              <div class="card-body">
+                <img
+                  height="180"
+                  src="https://images.pexels.com/photos/3356170/pexels-photo-3356170.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                  class="card-img-top"
+                  alt="Woman_getting_haircut"
+                />
+                <h5 class="card-title">Långt hår</h5>
+                <p class="card-text">
+                  Våra frisörer är experter på att frisera långt hår. Vi
+                  designar en frisyr efter ditt behov och använder oss av
+                  avancerad hårteknik för att få ditt hår att glänsa.
+                </p>
               </div>
             </div>
-          </nav>   
-         </header>
-
-         <main>
-             <div class="container" style="margin-left: 10px; margin-top: 15px; margin-bottom: 20px;">
-                <h1 class="display-4"> Våra behandlingar</h1>
-            </div>
-
-            <div class="container" style="margin-left: 10px; margin-bottom: 20px;">
-                <p>På <i>Hanssons hårsalong</i> så tillhandahas dom bästa behandlingarna till våra kunder. Våra hårexperter erbjuder den mest profesionella servicen.</p>
-            </div>
-
-            <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-3">
-                  <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <img height="180" src="https://images.pexels.com/photos/3356170/pexels-photo-3356170.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="Woman_getting_haircut">
-                      <h5 class="card-title">Långt hår</h5>
-                      <p class="card-text">Våra frisörer är experter på att frisera långt hår. Vi designar en frisyr efter ditt behov och använder oss av avancerad hårteknik för att få ditt hår att glänsa.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-3">
-                  <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <img height="180" src="https://images.pexels.com/photos/668196/pexels-photo-668196.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="Man_getting_haircut">
-                      <h5 class="card-title">Kort hår</h5>
-                      <p class="card-text">För kort hår så ingår en hårbottensmassage och behandling med vårt hemmagjorda balsam som återfuktar håret och hårbotten. Sedan konsulterar vi kring ditt hår och klipper efter önskat resultat.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="card" style="width: 18rem;">
-                      <div class="card-body">
-                        <img height="180" src="https://images.pexels.com/photos/2748242/pexels-photo-2748242.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="Man_getting_haircut">
-                        <h5 class="card-title">Permanent</h5>
-                        <p class="card-text">Vår hårfärgningsexpert har flera års erfarenhet av hårfärgning och färgkoordination. I samråd med dig så skapar vi en skräddarsydd färg för ditt hår. Vi behandling resulterar i extrem glans samt en stark och långvarig färg.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-3">
-                    <div class="card" style="width: 18rem;;">
-                      <div class="card-body">
-                          <img height="180" src="https://images.pexels.com/photos/3737825/pexels-photo-3737825.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="Man_getting_haircut">
-                        <h5 class="card-title">Vaxning</h5>
-                        <p class="card-text">Vi använder oss endast av vax med högsta kvalitet. I vår vaxbehandling så ingår kamomilte samt en axelmassage för att slappna av inför vaxningen.</p>
-                      </div>
-                    </div>
-                  </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card" style="width: 18rem">
+              <div class="card-body">
+                <img
+                  height="180"
+                  src="https://images.pexels.com/photos/668196/pexels-photo-668196.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                  class="card-img-top"
+                  alt="Man_getting_haircut"
+                />
+                <h5 class="card-title">Kort hår</h5>
+                <p class="card-text">
+                  För kort hår så ingår en hårbottensmassage och behandling med
+                  vårt hemmagjorda balsam som återfuktar håret och hårbotten.
+                  Sedan konsulterar vi kring ditt hår och klipper efter önskat
+                  resultat.
+                </p>
               </div>
             </div>
-
-
-         </main>
-</body>
+          </div>
+          <div class="col-sm-3">
+            <div class="card" style="width: 18rem">
+              <div class="card-body">
+                <img
+                  height="180"
+                  src="https://images.pexels.com/photos/2748242/pexels-photo-2748242.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                  class="card-img-top"
+                  alt="Man_getting_haircut"
+                />
+                <h5 class="card-title">Permanent</h5>
+                <p class="card-text">
+                  Vår hårfärgningsexpert har flera års erfarenhet av hårfärgning
+                  och färgkoordination. I samråd med dig så skapar vi en
+                  skräddarsydd färg för ditt hår. Vi behandling resulterar i
+                  extrem glans samt en stark och långvarig färg.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card" style="width: 18rem ;">
+              <div class="card-body">
+                <img
+                  height="180"
+                  src="https://images.pexels.com/photos/3737825/pexels-photo-3737825.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                  class="card-img-top"
+                  alt="Man_getting_haircut"
+                />
+                <h5 class="card-title">Vaxning</h5>
+                <p class="card-text">
+                  Vi använder oss endast av vax med högsta kvalitet. I vår
+                  vaxbehandling så ingår kamomilte samt en axelmassage för att
+                  slappna av inför vaxningen.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
